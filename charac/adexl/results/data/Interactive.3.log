@@ -1,0 +1,18 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sat Nov 12 23:46:34 2022 
+Best design point: 1
+Design specs: 
+	ee215_project:charac:1	corner	Nominal - 
+Design parameters: 
+	Vds		1
+	Vgs		100m
+	corner_factor		1
+	mismatch_factor		1
+	process_mc_factor		1
+
+Interactive.3
+Number of points completed: 6
+Number of simulation errors: 0
+Interactive.3 completed. 
+Current time: Sat Nov 12 23:46:44 2022 
