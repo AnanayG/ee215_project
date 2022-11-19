@@ -1,0 +1,174 @@
+'(nil version 1.0 bBox ((0 564) (550 1152)))
+(unless printInfoDpl
+printInfoDpl = (ncons nil)
+)
+(unless printInfoDpl->expTable
+printInfoDpl->expTable = (ncons nil)
+)
+printInfoDpl->expTable->waves = (let
+(tmp1)
+tmp1 = nil
+list(tmp1)
+)
+printInfoDpl->expTable->origWaves = (let
+(tmp1)
+tmp1 = nil
+list(tmp1)
+)
+printInfoDpl->expTable->expressions = (let
+(tmp1)
+tmp1 = "OP(\"/MN2\" \"??\")"
+list(tmp1)
+)
+printInfoDpl->expTable->aliases = (let
+(tmp1)
+tmp1 = "OP(\"/MN2\" \"??\")"
+list(tmp1)
+)
+(unless printInfoDpl->optionDpl
+printInfoDpl->optionDpl = (ncons nil)
+)
+printInfoDpl->optionDpl->format = 'suffix
+printInfoDpl->optionDpl->numSigDigits = 4
+printInfoDpl->optionDpl->linLog = "Linear"
+printInfoDpl->optionDpl->from = nil
+printInfoDpl->optionDpl->to = nil
+printInfoDpl->optionDpl->step = nil
+(unless printInfoDpl->printOptions
+printInfoDpl->printOptions = (ncons nil)
+)
+printInfoDpl->printType = "simple wave"
+printInfoDpl->origStrList = (let
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96 tmp97)
+tmp1 = "signal            OP(\"/MN2\" \"??\")"
+tmp2 = "beff                843.4m          "
+tmp3 = "betaeff              40.84m         "
+tmp4 = "cbb                   6.843f        "
+tmp5 = "cbd                  -1.594a        "
+tmp6 = "cbdbo                -1.594a        "
+tmp7 = "cbg                  -3.934f        "
+tmp8 = "cbgbo                -3.933f        "
+tmp9 = "cbs                  -2.908f        "
+tmp10 = "cbsbo                -2.908f        "
+tmp11 = "cdb                  -1.056f        "
+tmp12 = "cdd                   5.174f        "
+tmp13 = "cddbo                 1.404a        "
+tmp14 = "cdg                  -9.546f        "
+tmp15 = "cdgbo                -4.373f        "
+tmp16 = "cds                   5.428f        "
+tmp17 = "cdsbo                 5.428f        "
+tmp18 = "cgb                  -4.206f        "
+tmp19 = "cgd                  -5.163f        "
+tmp20 = "cgdbo                 9.731a        "
+tmp21 = "cgg                  25.19f         "
+tmp22 = "cggbo                14.85f         "
+tmp23 = "cgs                 -15.83f         "
+tmp24 = "cgsbo               -10.65f         "
+tmp25 = "cjd                   6.927f        "
+tmp26 = "cjs                   9.664f        "
+tmp27 = "covlgb              651.2z          "
+tmp28 = "covlgd                5.173f        "
+tmp29 = "covlgs                5.173f        "
+tmp30 = "csb                  -1.581f        "
+tmp31 = "csd                  -9.541a        "
+tmp32 = "csg                 -11.71f         "
+tmp33 = "css                  13.3f          "
+tmp34 = "fug                  14.77G         "
+tmp35 = "gbd                  10p            "
+tmp36 = "gbs                  10.19p         "
+tmp37 = "gds                 144.9u          "
+tmp38 = "gm                    2.338m        "
+tmp39 = "gmb                 519u            "
+tmp40 = "gmbs                519u            "
+tmp41 = "gmoverid             13.46          "
+tmp42 = "ibe                -624.6f          "
+tmp43 = "ibulk                -7.217f        "
+tmp44 = "id                  173.6u          "
+tmp45 = "idb                   6.173p        "
+tmp46 = "ide                 173.6u          "
+tmp47 = "ids                 173.6u          "
+tmp48 = "igb                   0             "
+tmp49 = "igbacc                0             "
+tmp50 = "igbinv                0             "
+tmp51 = "igcd                  0             "
+tmp52 = "igcs                  0             "
+tmp53 = "igd                   0             "
+tmp54 = "igdt                  0             "
+tmp55 = "ige                  -0             "
+tmp56 = "igidl                 0             "
+tmp57 = "igisl                 0             "
+tmp58 = "igs                   0             "
+tmp59 = "isb                   7.735f        "
+tmp60 = "ise                -173.6u          "
+tmp61 = "isub                609.3a          "
+tmp62 = "pwr                 107.2u          "
+tmp63 = "qb                  -14.11f         "
+tmp64 = "qbi                 -14.11f         "
+tmp65 = "qd                   -1.063f        "
+tmp66 = "qdi                  -1.063f        "
+tmp67 = "qg                   16.76f         "
+tmp68 = "qgdovl                0             "
+tmp69 = "qgi                  16.76f         "
+tmp70 = "qgsovl                0             "
+tmp71 = "qjd                  -4.992f        "
+tmp72 = "qjs                  -7.337a        "
+tmp73 = "qs                   -1.591f        "
+tmp74 = "qsi                  -1.591f        "
+tmp75 = "rdeff                43.71          "
+tmp76 = "region                2             "
+tmp77 = "reversed              0             "
+tmp78 = "rgate                18.67m         "
+tmp79 = "rgbd                  0             "
+tmp80 = "ron                   3.555K        "
+tmp81 = "rout                  6.903K        "
+tmp82 = "rseff                43.71          "
+tmp83 = "self_gain            16.14          "
+tmp84 = "ueff                 32.89m         "
+tmp85 = "vbs                   0             "
+tmp86 = "vdb                 617.4m          "
+tmp87 = "vds                 617.4m          "
+tmp88 = "vdsat                81.27m         "
+tmp89 = "vdss                 81.27m         "
+tmp90 = "vearly                1.199         "
+tmp91 = "vgb                 800m            "
+tmp92 = "vgd                 182.6m          "
+tmp93 = "vgs                 800m            "
+tmp94 = "vgt                  20.29m         "
+tmp95 = "vsat_marg           536.1m          "
+tmp96 = "vsb                  -0             "
+tmp97 = "vth                 779.7m          "
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13 tmp14 tmp15 tmp16 tmp17 tmp18 tmp19 tmp20 tmp21 tmp22 tmp23 tmp24 tmp25 tmp26 tmp27 tmp28 tmp29 tmp30 tmp31 tmp32 tmp33 tmp34 tmp35 tmp36 tmp37 tmp38 tmp39 tmp40 tmp41 tmp42 tmp43 tmp44 tmp45 tmp46 tmp47 tmp48 tmp49 tmp50 tmp51 tmp52 tmp53 tmp54 tmp55 tmp56 tmp57 tmp58 tmp59 tmp60 tmp61 tmp62 tmp63 tmp64 tmp65 tmp66 tmp67 tmp68 tmp69 tmp70 tmp71 tmp72 tmp73 tmp74 tmp75 tmp76 tmp77 tmp78 tmp79 tmp80 tmp81 tmp82 tmp83 tmp84 tmp85 tmp86 tmp87 tmp88 tmp89 tmp90 tmp91 tmp92 tmp93 tmp94 tmp95 tmp96 tmp97)
+)
+printInfoDpl->title = nil
+printInfoDpl->xCol = nil
+printInfoDpl->width = 14
+printInfoDpl->numSpaces = 4
+printInfoDpl->noMerge = nil
+printInfoDpl->resultsDir = nil
+printInfoDpl->resultName = nil
+printInfoDpl->unitList = (let
+(tmp1 tmp2)
+tmp1 = ""
+tmp2 = ""
+list(tmp1 tmp2)
+)
+printInfoDpl->waveNameList = (let
+(tmp1 tmp2)
+tmp1 = "signal"
+tmp2 = "OP(\"/MN2\" \"??\")"
+list(tmp1 tmp2)
+)
+(unless printInfoDpl->context
+printInfoDpl->context = (ncons nil)
+)
+printInfoDpl->context->runObjFile = "runObjFile"
+printInfoDpl->context->netlistDir = "/w/home.16/ee/grad/ananay/simulation/diff_amp/spectre/schematic/netlist"
+printInfoDpl->context->relativeDir = "/w/home.16/ee/grad/ananay/simulation/diff_amp/spectre"
+printInfoDpl->context->dataDir = "/w/home.16/ee/grad/ananay/simulation/diff_amp/spectre/schematic"
+(unless printInfoDpl->context->cache
+printInfoDpl->context->cache = (ncons nil)
+)
+printInfoDpl->context->simData = nil
+printInfoDpl->context->simulator = nil
+printInfoDpl->realExpList = nil
+printInfoDpl->saveLoadFile = "/w/home.16/ee/grad/ananay/ee215a/cbin/ee215a/ee215_project/diff_amp/spectre_state1/printSetup.state"
