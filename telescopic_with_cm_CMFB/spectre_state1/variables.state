@@ -52,7 +52,7 @@ tmp6 = make_sevVariableStruct()
 tmp6 = (ncons nil)
 )
 tmp6->name = "Vsin"
-tmp6->expression = "1u"
+tmp6->expression = "4.5m"
 tmp6->index = 6
 (unless tmp7
 tmp7 = make_sevVariableStruct()
