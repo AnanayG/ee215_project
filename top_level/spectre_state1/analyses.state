@@ -88,7 +88,7 @@ analysis(dc options detail) "node"
 analysis(dc options emirfile) ""
 analysis(dc options emirformat) ""
 analysis(dc options filename) ""
-analysis(dc options force) ""
+analysis(dc options force) "all"
 analysis(dc options homotopy) ""
 analysis(dc options maxiters) "150"
 analysis(dc options maxsteps) "10000"
@@ -164,7 +164,7 @@ analysis(tran options finalTimeOp) t
 analysis(tran options flushofftime) ""
 analysis(tran options flushpoints) ""
 analysis(tran options flushtime) ""
-analysis(tran options ic) ""
+analysis(tran options ic) "all"
 analysis(tran options infoname) nil
 analysis(tran options infotimes) nil
 analysis(tran options linearic) ""
